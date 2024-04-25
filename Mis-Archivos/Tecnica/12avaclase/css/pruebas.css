@@ -1,0 +1,437 @@
+*{
+	margin: 0;
+	box-shadow: 10px 10px 10px black;
+}
+#Titulo{
+		background-color: yellow; 
+		width: 100%;
+		height: 100px;
+		text-align: center;
+		font-size: 50px;
+		font-family: Times new roman;
+		padding-top: 20px;
+}
+#A{
+	margin-top: 20px;
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#B{
+	margin-top: 20px;
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#C{
+	margin-top: 20px;
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#D{
+	margin-top: 20px;
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#E{
+	margin-top: 20px;
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#F{
+	margin-top: 20px;
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#G{
+	margin-top: 20px;
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#H{
+	margin-top: 20px;
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#I{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#J{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#K{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#L{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#M{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#N{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#Ñ{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#O{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#P{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#Q{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#R{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#S{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#T{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#U{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#V{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#W{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#X{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#Y{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#Z{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AB{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AC{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AD{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AE{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AF{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AG{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AH{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AI{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AJ{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AK{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AL{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AM{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AN{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AÑ{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AO{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AP{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AQ{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AR{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AS{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AT{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AU{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AV{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AW{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AX{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#AY{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#AZ{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#BA{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#BB{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#BC{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#BD{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#BE{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#BF{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#BG{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#BH{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#BI{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}
+#BK{
+	background-image: url(../img/jupiter2.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+	background-attachment: fixed;
+}
+#BL{
+	background-image: url(../img/negro.jpg);
+	width: 12%;
+	height: 150px;
+	float: left;
+}

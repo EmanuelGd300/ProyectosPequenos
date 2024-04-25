@@ -1,0 +1,18 @@
+.bienes-container {
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    text-align: center;
+}
+
+.producto {
+    margin: 10px;
+}
+
+.NombreProducto {
+    font-size: 20px;
+}
+
+.PrecioProducto {
+    font-size: 20px;
+}

@@ -1,0 +1,120 @@
+
+*{
+	margin: 0;
+}
+#Titular{
+	width: 100%;
+	height: 70px;
+	font-size: 50px;
+	font-family: Pristina;
+	background-color: #F71E1E;
+	text-align: center;
+	padding-top: 10px;
+}
+#Barralateral{
+	margin-top: 20px;
+	width: 25%;
+	height: 625px;
+	background-color: #AB2828;
+	padding-top: 20px;
+	float: left;
+}
+.Cuadro{
+	width: 85%;
+	height: 200px;
+	background-color:;
+	float: left;
+}
+#Foto{
+	width: 60%;
+	height: 180px;
+	background-image: url(../img/aatrox4.jpg);
+	float: left;
+	margin-top: 10px;
+	background-size: cover;
+	border-style: solid;
+	background-attachment: 
+}
+.Escritura{
+	width: 300px;
+	height: 100px;
+	margin-top: 10px;
+	border: 3px;
+	border-style: solid;
+	font-size: 20px;
+	padding-left: 10px;
+	text-align: center;
+	padding-top: 80px;
+	font-family: CASTELLAR;
+}
+#Foto2{
+	width: 60%;
+	height: 180px;
+	background-image: url(../img/aatrox.jpg);
+	float: left;
+	background-size: cover;
+	margin-top: 10px;
+	border-style: solid;
+}
+#Foto3{
+	width: 60%;
+	height: 180px;
+	background-image: url(../img/aatrox3.jpg);
+	float: left;
+	margin-top: 10px;
+	background-size: cover;
+	border-style: solid;
+}
+#CuadroContenedor{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 990px;
+	height: 645px;
+	background-color: #EE4D36;
+	float: left;
+}
+.Ajustes{
+	width: 50%;
+	height: 150px;
+	float: left;
+	margin-top: 50px;
+}
+.Cajon{
+	width: 450px;
+	height: 39px;
+}
+.ImagenTitular{
+	width: 50px;
+	height: 50px;
+	float: left;
+	background-image: url(../img/Blink182.jpg);
+	background-size: cover;
+	border-top-left-radius: 5px;
+}
+.TitularCajon{
+	width: 400px;
+	height: 45px;
+	border-top-right-radius: 5px;
+	padding-top: 5px;
+	float: right;
+	font-size: 26px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	background: linear-gradient(to bottom, #020024, #C61616, #E6E310);
+	font-family: Cooper Black;
+}
+.EscrituraCajon{
+	width: 430px;
+	height: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: justify;
+	background: linear-gradient(to bottom, #6E5F5A , #232E4A , #AB7F7F);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px; 
+	font-size: 20px;
+	font-family: Andy;
+}

@@ -1,0 +1,25 @@
+Hoy clase 10 de Noviembre empezamos con DML (Data manipulation language)
+
+Significa lenguaje de manipulacion de datos y es el que no permite hacer las funciones 
+del CRUD, crear, mostrar o leer, actualizar y borrar:
+
+// WHERE funciona como un condicional Where = 2 = Donde sea igual a 2 //
+
+C (CREATE) Insert into SALONES (CODIGO,DESCRIPCION,PROFESORES) Values (1, "Ambiente 204", "Becerra");	
+
+R (READ)   // SELECCIONA Y MUESTRA LA TABLA // Select CODIGO,DESCRIPCION,PROFESORES from SALONES
+	    // ES UNA CONSULTA VINCULADA 	 // SELECT * FROM DORIAM D INNER JOIN PELICULA P ON D.CODIGO = P.CODIGO_DORIAN;
+
+U (UPDATE) Update SALONES set DESCRIPCION = "Hola mundo", 3 where CODIGO = 2 ;
+
+D (DELETE) Delete from SALONES Where CODIGO = 200; 
+	     TRUCATE SALONES; Que funciona para re indexar la tabla y que la primary key no se buguee
+
+NOT NULL SIGNIFICA QUE NO ACEPTA VALORES NULOS  
+
+// PARA CAMBIAR UN VALOR DE TABLA YA PUESTO //
+ALTER table salones CHANGE CODIGO CODIGO INT (10) AUTO_INCREMENT PRIMARY KEY NOT NULL;
+
+// PARA CONSULTAR UNA TABLA SIN MOSTRAR EL NOMBRE VERDADERO SINO CON UN ALIAS //
+Select CODIGO NRO, DESCRIPCION TEXT FROM SALONES
+	NRO y Text Es el alias, puede ser el que uno quiera

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UML7</string>
+    <string name="TituloBiblioteca">Biblioteca de Emanuel</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Tipo">Genero Literario</string>
+    <string name="Editorial">Editorial</string>
+    <string name="Año">Año</string>
+    <string name="Autor">Nombres Del Autor</string>
+    <string name="Nacionalidad">Nacionalidad Del Autor</string>
+    <string name="Verificar">Verificar</string>
+    <string name="Prestar">Prestar</string>
+    <string name="Mostrar">Mostrar</string>
+</resources>

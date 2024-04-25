@@ -1,0 +1,7 @@
+node_modules
+qa.env
+development.env
+production.env
+ejemploenv.env
+
+// .gitignore es un archivo donde se eligen los archivos a no subir a git //

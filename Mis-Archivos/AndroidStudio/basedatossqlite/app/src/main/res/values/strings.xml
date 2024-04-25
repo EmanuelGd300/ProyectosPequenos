@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">basedatossqlite</string>
+    <string name="button">Crear Base Datos</string>
+    <string name="nombre">Nombre:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="correo">Correo:</string>
+    <string name="botonguardar">Guardar</string>
+    <string name="menunuevo">Nuevo Registro</string>
+    <string name="menucrearbd">Crar Base Datos</string>
+    <string name="menuverregistro">Ver Registro</string>
+</resources>

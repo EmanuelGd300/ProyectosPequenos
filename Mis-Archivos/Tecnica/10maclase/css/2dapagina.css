@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+}
+#Header{
+	background-color: #15EB15;
+	width: 100%;
+	height: 250px;
+	font-size: 30px;
+	font-family: calibri light;
+}
+#Navegacion{
+	background-color: #EBFF09;
+	width: 80%;
+	height: 100px;
+	margin:0 auto;
+	margin-top: 100px;
+}
+#Cuerpo{
+	background-color: blue;
+	width: 100%;
+	height: 400px;
+	font-size: 30px;
+	color: white;
+	font-family: calibri light;
+}
+#Contenido{
+	background-color: #10C7CE;
+	width: 80%;
+	height: 350px;
+	font-family: calibri light;
+	font-size: 30px;
+	color: black;
+	float:left;
+	margin-left: 10px;
+}
+#Cuadrolateral{
+	background-color: #10C7CE;
+	width: 18%;
+	height: 350px;
+	float: right;
+	margin-right: 10px;
+	font-family: calibri light;
+	font-size: 30px;
+	color: black;
+}
+#Final{
+	background-color: #EB6C05;
+	width: 100%;
+	height: 100px;
+	font-family: calibri light;
+	font-size: 30px;
+	color: black;
+}

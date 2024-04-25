@@ -1,0 +1,34 @@
+*{
+	margin:0px;
+}
+.cab{
+	width: 100%;
+	background: linear-gradient(to bottom, #020024, #C61616, #E6E310);
+	height: 60px;
+}
+.content{
+	width: 100%;
+	background: linear-gradient(to bottom, #6E5F5A , #232E4A , #AB7F7F);
+	height: 600px;
+}
+.cuadro{
+	width: 200px;
+	margin:10px;
+	float: left;
+	background-color: #EE4D36;
+	height: 200px;
+}
+.tit{
+	border-color: #FF6400;
+	border:1px;
+	height: 40px;
+	width: 198px;
+	border-style: solid;
+}
+.des{
+	width: 198px;
+	background-color: #E4EB00;
+	height: 160px;
+	font-family: CASTELLAR;
+	text-align: center;
+}

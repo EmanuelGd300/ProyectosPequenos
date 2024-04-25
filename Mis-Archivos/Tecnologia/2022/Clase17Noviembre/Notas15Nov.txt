@@ -1,0 +1,44 @@
+Investigacion funciones SQL:
+
+Order By
+En donde Lista de campos representa los campos a ordenar. Ejemplo: SELECT CodigoPostal, Nombre, Telefono FROM Clientes ORDER BY Nombre; 
+Esta consulta devuelve los campos CodigoPostal, Nombre, Telefono de la tabla Clientes ordenados por el campo Nombre.
+
+Group By
+La sentencia GROUP BY identifica una columna seleccionada para utilizarla para agrupar resultados.
+Divide los datos en grupos por los valores de la columna especificada, y devuelve una fila de resultados para cada grupo.
+
+Having
+La función HAVING se utiliza para generar un filtro a partir de las funciones SQL del aritmeticas de como son SUM, MAX, MIN, AVG
+
+COUNT
+COUNT(*) cuenta el número de elementos en un conjunto. Incluye valores NULL y duplicados.
+COUNT(ALL expression) evalúa la expresión para cada fila de un conjunto y devuelve el número de valores no nulos.
+COUNT(DISTINCT expression) evalúa la expresión para cada fila de un conjunto y devuelve el número de valores únicos no nulos.
+
+SUM
+Devuelve la suma de un conjunto de valores contenidos en un campo especificado en una consulta.
+
+—--------------------------------------------------------------------------------------------------------------
+
+TAREA CONSULTAS SQL CASTING:
+
+MOSTRAR EN QUÉ SALAS SE HACEN LAS DIFERENTES PRUEBAS:
+SELECT p.NUMERO_PRUEBA , p.HORA_INICIO ,p.HORA_FINAL, p.CODIGO_SALA , s.DESCRIPCION FROM prueba P INNER JOIN sala S ON p.CODIGO_SALA = s.CODIGO;
+
+MOSTRAR OTRA CONSULTA QUE MUESTRE LA PRUEBA DE QUÉ FASE ES:
+SELECT p.NUMERO_PRUEBA , p.HORA_INICIO ,p.HORA_FINAL, p.CODIGO_FASE , f.CODIGO_FASE FROM prueba P INNER JOIN fase F ON p.NUMERO_PRUEBA = f.CODIGO_FASE;  
+
+MOSTRAR TODAS LAS FASES DE CADA CASTING:
+SELECT f.* , c.CODIGO FROM fase F INNER JOIN casting C ON f.CODIGO_CASTING = c.CODIGO; 
+
+MOSTRAR TODOS LOS PERFILES DE UN CASTING:
+SELECT PC.* , c.CODIGO FROM perfil_casting PC INNER JOIN casting C ON PC.CODIGO_CASTING = c.CODIGO; 
+
+MOSTRAR LA DESCRIPCIÓN DEL PERFIL DE UN CANDIDATO:
+SELECT C.*, P.* FROM CANDIDATO AS C INNER JOIN PERFIL AS P ON C.CODIGO = 2
+
+SE DESEA REALIZAR UNA CONSULTA QUE MUESTRE EL PERFIL DE UN CANDIDATO, SU NOMBRE, LAS EVALUACIONES QUE HA REALIZADO CON SU RESPECTIVA FASE:
+SELECT c.CODIGO_PERFIL, c.NOMBRE, E.CODIGO_EVALUACION, E.RESULTADO, E.CODIGO_FASE FROM candidato  C INNER JOIN evaluacion E ON c.CODIGO =  e.CODIGO_EVALUACION;
+
+—--------------------------------------------------------------------------------------------------------------

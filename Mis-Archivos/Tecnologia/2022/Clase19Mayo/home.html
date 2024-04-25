@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Identificar caracteres del idioma español-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <h1>
+        <center>Datos Personales</center>
+    </h1>
+    <center>
+        <form action="resultado.html" method="post">
+            <table border="4">
+                <thead>
+                    <tr>
+                        <th>DATO</th>
+                        <th>VALOR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label>Cedula</label></td>
+                        <td>
+                            <input type="number" name="txtCedula" id="txtCedula" placeholder="Cedula">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Nombre</label></td>
+                        <td>
+                            <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Telefono</label></td>
+                        <td>
+                            <input type="text" name="txtTelefono" id="txtTelefono" placeholder="Telefono">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Correo</label></td>
+                        <td>
+                            <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Fecha Nacimiento</label></td>
+                        <td>
+                            <input type="date" name="txtFeNacimiento" id="txtFeNacimiento">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Color favorito</label></td>
+                        <td>
+                            <input type="color" name="txtColor" id="txtColor">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Pais Nacimiento</label></td>
+                        <td>
+                            <select name="cboPais" id="cboPais">
+                                <option value="2">Monaco</option>
+                                <option value="1" selected>Colombia</option>
+                                <option value="3">Venezuela</option>
+                                <option value="4">Rusia</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Hobbies</label></td>
+                        <td>
+                            <input type="checkbox" name="chkFutbol" id="chkFutbol"> Futbol
+                            <input type="checkbox" name="chkPolitica" id="chkPolitica"> Politica
+                            <input type="checkbox" name="chkBailar" id="chkBailar"> Baile
+                            <input type="checkbox" name="chkPatinar" id="chkPatinar"> Patinar
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Sexo</label></td>
+                        <td>
+                            <input type="radio" name="optSexo" id="optSexo">Femenino
+                            <input type="radio" name="optSexo" id="optSexo">Masculino
+                            <input type="radio" name="optSexo" id="optSexo">Otro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Edad</label></td>
+                        <td>
+                            <input type="number" name="txtEdad" id="txtEdad" min="1" max="200" placeholder="Edad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Descripción</label></td>
+                        <td>
+                            <textarea name="txtDescripcion" id="txtDescripcion" cols="35" rows="5"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <br>
+            <input type="submit" value="Enviar" name="btnEnviar" id="btnEnviar">
+            <button type="reset">Limpiar</button>
+        </form>
+        
+
+    </center>
+    <!--
+        header
+        nav
+        section
+        article
+        aside
+        footer
+        div
+        <img src="img/estructura-etiquetas-html.png">
+    -->
+
+</body>
+
+</html>

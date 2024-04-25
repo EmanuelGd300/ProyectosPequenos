@@ -1,0 +1,48 @@
+Nos empezamos a introducir en las bases de datos.
+
+Dentro del lenguaje SQL (System query language)
+
+Existen varios sistemas manejadores de base de datos, los cuales son:
+
+DDL: Data definition language
+
+Sirve para crear, modificar y elinar bases de datos y tablas
+
+DML: Data manage language
+
+Sirve para select, update, delete, insert datos de las tablas y bases de datos
+
+SMDB: System manage data base
+
+Son aquellos sistemas como phpmyadmin que nos permiten manejar las bases de datos
+
+
+LA PRIMARY KEY ES EL ID
+
+PARA CREAR TABLAS Y BASES DE DATOS:
+
+//CREAR BASE DE DATOS//
+CREATE DATABASE Casting;
+
+//CREAR TABLA//
+create TABLE Casting (CODIGO INT (10), NOMBRE VARCHAR (20), FECHA_CONTRATO DATE, PRESUPUESTO VARCHAR (100), CODIGO_CLIENTE VARCHAR (10), CODIGO_AGENTE VARCHAR (10))
+
+//AÑADIR COLUMNA A UNA TABLA//
+ALTER TABLE casting ADD codigo_sala VARCHAR(20) NULL AFTER CODIGO_CLIENTE;
+
+//BORRAR COLUMNA//
+ALTER TABLE casting DROP codigo_cliente;
+
+//CREAR TABLA CON PRIMARY KEY (ID)//
+CREATE TABLE PERSONAL_DATA ( CEDULA INT(10) NOT NULL PRIMARY KEY, NAME VARCHAR(100), LASTNAME VARCHAR( 100));
+
+//CREAR TABLA CON PRIMARY KEY (ID) AUTOINCREMENTABLE Y CON BOOLEAN//
+CREATE TABLE ORDERS ( ID INT(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,FECHA DATE, CANITIDAD INT(5), PRODUCTO VARCHAR(10), ESTADO BOOLEAN );
+IMPORTANTE: A LA HORA DE RELACIONAR UNA TABLA, LOS DATOS DEBEN SER DEL MISMO TIPO Y DE LA MISMA LONGITUD
+
+//CREAR TABLA RELACIONADA, RECORDAR LA CLAVE FOREANA AL FINAL DE LA TABLA//
+CREATE TABLE DETALLE_ORDEN ( ID INT(9) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+CANTIDAD INT(2), ID_ORDEN INT(1), FOREIGN KEY (ID_ORDEN) REFERENCES ORDERS (1D));
+
+ 
+

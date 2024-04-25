@@ -1,0 +1,32 @@
+ESTA CARPETA ES DEL 27 DE OCTUBRE, 1 DE NOVIEMBRE.
+
+Orden de node: Npm init -- yes, Npm init y
+Npm Instalar modulos
+
+NPM UNINSTALL XXNOMBREDELMODULOXX
+NPM UNI XXXXX 
+
+Funcion para desinstalar modulos o paquetes
+
+En el package.json encontramos una linea llamada Test, la cambiamos y colocamos "dev": "nodemon index.js"
+
+despues ejecutamos en la terminal : npm run dev // Se encarga de ejecutar el entorno de desarrollo //
+
+Instalar modulos en el paquete de desarrollo: npm i xxx -D
+
+Hay 3 espacios de desarrollo normalmente en las empreseas: Produccion, desarrollo, pruebas.
+y se utilizan colores especificos en cada entorno, estos colores son y se utilizan en el nodemon:
+
+Azul, verde: desarrollo
+Amarillo: pruebas
+Rojo: produccion
+
+Instalar el paquete npm i dotenv
+Siempre proteger la informacion con un archivo .env
+
+A la hora de proteger la informacion se debe proteger por entornos, los cuales son
+qa.env = pruebas
+production.env = produccion
+development.env = desarrollo 
+
+// req/require es = cuando se haga una peticion, res/response es = responder con

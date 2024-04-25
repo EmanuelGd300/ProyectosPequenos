@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <!--Identificar caracteres del idioma español-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datos Personales</title>
+        <link rel="stylesheet" href="">
+        <style>
+            .inputs{
+                width: 270px;
+            }
+        </style>
+        <script>
+            function validar(e) {
+
+                e.preventDefault();
+
+                //let == declarar variable ------- document.getElementById == capturar un objeto por su ID
+                let cedula = document.getElementById("txtCedula");
+                let nombre = document.getElementById("txtNombre");
+                let telefono = document.getElementById("txtTelefono");
+                let correo = document.getElementById("txtCorreo");
+                let formulario = document.getElementById("formulario");
+                let valida = false;
+                let exre = /^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+
+                //console.log == Mostrar en consola ------- alert == mostrar alerta básica
+                if (cedula.value == "") {
+                    console.log("Ingrese su cédula");
+                    valida = true;
+                    alert("INGRESE SU CÉDULA")
+                }
+
+                if (nombre.value == "") {
+                    console.log("Ingrese su nombre");
+                    valida = true;
+                    alert("INGRESE SU NOMBRE")
+                }
+
+                if (telefono.value == "") {
+                    console.log("Ingrese su telefono");
+                    valida = true;
+                    alert("INGRESE SU TELEFONO")
+                }
+
+                if (correo.value == "") {
+                    console.log("Ingrese su correo");
+                    valida = true;
+                    alert("INGRESE SU CORREO")
+                }
+
+                if(exre.test(correo.value)){
+                    //alert('email valido');    
+                }else{
+                    alert('email no valido');
+                    valida = true;
+                } 
+
+                if (valida == false) {
+                    formulario.submit();
+                } else {
+
+                }
+            }
+
+        </script>
+    </head>
+
+    <body>
+
+        <h1>
+            <center>Datos Personales</center>
+        </h1>
+        <center>
+            <form action="../Clase19Mayo/resultado.html" id="formulario">
+                <table border="4">
+                    <thead>
+                        <tr>
+                            <th>DATO</th>
+                            <th>VALOR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label>Cedula</label></td>
+                            <td>
+                                <input type="number" name="txtCedula" id="txtCedula" placeholder="Cedula" class="inputs">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Nombre</label></td>
+                            <td>
+                                <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="inputs">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Telefono</label></td>
+                            <td>
+                                <input type="text" name="txtTelefono" id="txtTelefono" placeholder="Telefono" class="inputs">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Correo</label></td>
+                            <td>
+                                <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="inputs">
+                                <span id="emailOK"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Fecha Nacimiento</label></td>
+                            <td>
+                                <input type="date" name="txtFeNacimiento" id="txtFeNacimiento" class="inputs">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Color favorito</label></td>
+                            <td>
+                                <input type="color" name="txtColor" id="txtColor" class="inputs">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Pais Nacimiento</label></td>
+                            <td>
+                                <select name="cboPais" id="cboPais" class="inputs">
+                                    <option value="2">Monaco</option>
+                                    <option value="1" selected>Colombia</option>
+                                    <option value="3">Venezuela</option>
+                                    <option value="4">Rusia</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Hobbies</label></td>
+                            <td>
+                                <input type="checkbox" name="chkFutbol" id="chkFutbol"> Futbol
+                                <input type="checkbox" name="chkPolitica" id="chkPolitica"> Politica
+                                <input type="checkbox" name="chkBailar" id="chkBailar"> Baile
+                                <input type="checkbox" name="chkPatinar" id="chkPatinar"> Patinar
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Sexo</label></td>
+                            <td>
+                                <input type="radio" name="optSexo" id="optSexo">Femenino
+                                <input type="radio" name="optSexo" id="optSexo">Masculino
+                                <input type="radio" name="optSexo" id="optSexo">Otro
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Edad</label></td>
+                            <td>
+                                <input type="number" name="txtEdad" id="txtEdad" min="1" max="200" placeholder="Edad" class="inputs">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Descripción</label></td>
+                            <td>
+                                <textarea name="txtDescripcion" id="txtDescripcion" cols="35" rows="5"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                <br>
+                <input type="submit" value="Enviar" onclick="validar(event);">
+                <button type="reset">Limpiar</button>
+            </form>
+        </center>
+    </body>
+
+</html>

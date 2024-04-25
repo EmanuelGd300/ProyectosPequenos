@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/resource.js"></script>
+    </head>
+    <body>
+        <input type="hidden" id="oculto">
+        <input type="hidden" id="opera">
+        <center>
+            <table border="2">
+
+                <tr>
+                    <td colspan="3"><input type="number" id="res"></td>
+                </tr>
+    
+                <tr>
+                    <td><button id="n1" onclick="agregaN1(event);">1</button></td>
+                    <td><button id="n2" onclick="agregaN2(event);">2</button></td>
+                    <td><button id="n3" onclick="agregaN3(event);">3</button></td>
+                </tr>
+    
+                <tr>
+                    <td><button id="n4" onclick="agregaN4(event);">4</button></td>
+                    <td><button id="n5" onclick="agregaN5(event);">5</button></td>
+                    <td><button id="n6" onclick="agregaN6(event);">6</button></td>
+                </tr>
+    
+                <tr>
+                    <td><button id="n7" onclick="agregaN7(event);">7</button></td>
+                    <td><button id="n8" onclick="agregaN8(event);">8</button></td>
+                    <td><button id="n9" onclick="agregaN9(event);">9</button></td>
+                </tr>
+    
+                <tr>
+                    <td><button id="menos" onclick="menos(event, 2);">-</button></td>
+                    <td><button id="n0" onclick="agregaN0(event);">0</button></td>
+                    <td><button id="mas" onclick="mas(event, 1);">+</button></td>
+                </tr>
+    
+                <tr>
+                    <td colspan="3"><button id="igual" onclick="resultado();">=</button></td>
+                </tr>
+            </table>
+        </center>  
+    </body>
+</html>

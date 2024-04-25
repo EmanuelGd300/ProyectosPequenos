@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PrimerApp</string>
+    <string name="tidpersona">Id Persona</string>
+    <string name="Nombres">Nombres</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Correo">Correo</string>
+    <string name="nombres">Nombres</string>
+    <string name="Verificar">Verificar</string>
+</resources>

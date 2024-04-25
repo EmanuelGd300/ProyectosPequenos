@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/TidCliente"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/TidCliente"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/Tnombre"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/Tnombre"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/Ttelefono"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/Ttelefono"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TidCliente"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <EditText
+        android:id="@+id/TidHotel"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/TidHotel"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tnombre"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <EditText
+        android:id="@+id/TfechaEntrada"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/TfechaEntrada"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TidHotel"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <EditText
+        android:id="@+id/TfechaSalida"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:background="@drawable/bordes"
+        android:hint="@string/TfechaSalida"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Thabitacion"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <EditText
+        android:id="@+id/Tdias"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/Tdias"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvalorDia"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <EditText
+        android:id="@+id/TvalorDia"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/TvalorDia"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TfechaEntrada"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/Benviar"
+        android:layout_width="127dp"
+        android:layout_height="39dp"
+        android:text="@string/Benviar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <TextView
+        android:id="@+id/Mostrar"
+        android:layout_width="264dp"
+        android:layout_height="220dp"
+        android:autofillHints=""
+        android:background="@drawable/bordes"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Benviar"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <EditText
+        android:id="@+id/Thabitacion"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bordes"
+        android:hint="@string/Thabitacion"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ttelefono"
+        app:layout_constraintVertical_bias="0.02" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

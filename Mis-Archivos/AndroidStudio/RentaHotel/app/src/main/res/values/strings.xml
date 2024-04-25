@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RentaHotel</string>
+    <string name="TidCliente">ID USUARIO</string>
+    <string name="Tnombre">NOMBRE</string>
+    <string name="Ttelefono">TELEFONO</string>
+    <string name="TidHotel">ID HOTEL</string>
+    <string name="Thabitacion">HABITACIÓN</string>
+    <string name="TfechaEntrada">FECHA ENTRADA</string>
+    <string name="TfechaSalida">FECHA SALIDA</string>
+    <string name="Tdias">DIAS HOSPEDAJE</string>
+    <string name="TvalorDia">VALOR DIA</string>
+    <string name="Benviar">CONFIRMAR</string>
+</resources>

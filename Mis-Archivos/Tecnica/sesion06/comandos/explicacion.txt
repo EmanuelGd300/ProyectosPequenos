@@ -1,0 +1,23 @@
+ver la vesion de node
+node -v
+ver la version npx
+npx -v
+ver la version npm
+npm -v
+
+Inicializar una aplicacion en NODE JS (package.json)
+npm init --yes
+
+Instalar framework a traves de paquetes
+npm i express                                  	= Es un servidor
+npm i ejs					                    = Permite utilizar plantillas
+npm i morgan					                = Ver por consola lo que se ve por la browser
+
+Esto se agrega en el package.json en la clave script
+"dev": "node src",                  = Sirve para ejecutar una pagina  --- se ejecuta asi: npm run dev
+
+"start":"node src"                  = Sirve para que el sistema arranque al ser desplegado --- se ejecuta asi: npm start
+
+-----------------------------------
+Instalamos el NODEMON
+npm i nodemon -D                   = Sirve para que se ejecute al detectar cambios guardados

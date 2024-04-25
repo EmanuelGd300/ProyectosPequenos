@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <title>LaboralPlace</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Ingreso de Usuarios</title>
+    <link rel="shortcut icon" href="images/Kirbo.png">
+    <link rel="stylesheet" href="css/diseño.css">
+</head>
+
+<body>
+    <!-- Aquí inicia la parte izquierda con el formulario para ingresar // segunda parte de la pagina  -->
+    <section class="left-section">
+        <div id="left-cover" class="cover cover-hide">
+            <img src="images/cover.png" alt="">
+            <h1>LaboralPlace!</h1>
+            <h3>¿Ya tienes una cuenta?</h3>
+            <button type="button" class="switch-btn" onclick="location.reload()">Ingresa</button>
+            <!-- Recarga la página -->
+        </div>
+        <div id="left-form" class="form fade-in-element">
+
+            <!-- Formulario para llamar al archivo que hace el login // PARA INGRESAR SI TIENE CUENTA -- // 2° PASO-->
+            <form action="login.php" method="post">
+                <center><img src="images/undraw_work_time_lhoj.svg" alt="" width="260"></center>
+                <input type="text" name="user-name" class="input-box" placeholder="Usuario">
+                <input type="password" name="user-pass" class="input-box" placeholder="Contraseña">
+                <input type="submit" name="login-btn" class="btn" value="Ingresar">
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Aquí inicia la parte derecha de la página -->
+    <section class="right-section">
+        <div id="right-cover" class="cover fade-in-element">
+            <img src="images/cover.png" alt="">
+            <!-- El alt atributo proporciona información alternativa para una imagen si un usuario por alguna razón no puede verla -->
+            <h1>¡Bienvenido a LaboralPlace!</h1>
+            <h3>¿Aún no tienes una cuenta?</h3>
+            <button type="button" class="switch-btn" onclick="switchSignup()">Registrate</button>
+            <!-- "abre nueva página"-->
+        </div>
+        <div id="right-form" class="form form-hide">
+            <h1>Registrate</h1>
+            <form action="signup.php" method="post">
+                <!-- Llama al archivo que hace el registro en la base de datos // PRIMER PASO -->
+                <input type="text" name="user-name" class="input-box" placeholder="Usuario">
+                <input type="email" name="user-email" class="input-box" placeholder="Correo">
+                <input type="password" name="user-pass" class="input-box" placeholder="Contraseña">
+                <input type="submit" name="signup-btn" class="btn" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Sobre nosotros</h2>
+                        <p>Bienvenido a LaboralPlace, una pagina desarrollada por 3 estudiantes de la I.E.C.E en Envigado Inicialmente creada como proyecto final de la educacion media con el Sena. Pero actualmente pensado como la proxima mejor plataforma
+                            para la busqueda y la creacion de propuestas laborales. Bienvenido a LaboralPlace.
+                        </p>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">Trabajadores</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-2 d-block">Emanuel Goméz Díaz</a></li>
+                            <li><a href="#" class="py-2 d-block">Santiago Flórez Echavarría</a></li>
+                            <li><a href="#" class="py-2 d-block">Samuel Pérez Betancur</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">¿Sigue con dudas?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text">Carrera 32 Cl 41 AA Sur -14 Bloque 3-3 (Interior 503)Envigado, Antioquia (COL) <br>
+                        <br>Clle 40 a sur #68-23</br>
+                        <br>Envigado, Antioquia (COL)</br></span></li>
+                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+57 313 6640809<br>
+                      <br>+57 310 5342193</br>
+                    </span></a>
+                                </li>
+                                <li><a href="#"><span class="icon icon-envelope"></span><span
+                          class="text">LaboralPlace@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> Todos los derechos reservados | Este trabajo fue hecho con <i class="icon-heart text-danger" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/principal.js"></script>
+
+</body>
+
+</html>

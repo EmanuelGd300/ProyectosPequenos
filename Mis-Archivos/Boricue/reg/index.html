@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alumnos - ASEM</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+ <!--   <div class="container"> -->
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-4">
+						<h2>Sofia Plus Actualizado</b></h2>
+					</div>
+					
+                </div>
+            </div>
+
+            <div class="row text-center" id="loader" style="position: absolute;top: 140px;left: 50%">
+				
+			</div>
+
+
+			<div class="table-filter">
+				<div class="row">
+                    
+                    <div class="col-sm-9">
+						<button type="button" class="btn btn-primary"><i class="fa fa-search" onclick="load(1);"></i></button>
+						<div class="filter-group">
+							<label>Nombre</label>
+							<input type="text" class="form-control" id="name">
+						</div>
+						<div class="filter-group">
+							<label>Ficha</label>
+							<select class="form-control" id="location" onchange="load(1);"> 
+								<option value="">Todos</option>
+<option value="2076940">2076940</option>
+<option value="2076952">2076952</option>
+<option value="2076961">2076961</option>
+<option value="2077123">2077123</option>
+<option value="2077126">2077126</option>
+<option value="2077128">2077128</option>
+<option value="2078269">2078269</option>
+<option value="2078270">2078270</option>
+<option value="2078280">2078280</option>
+<option value="2078357">2078357</option>
+<option value="2078359">2078359</option>
+<option value="2078421">2078421</option>
+<option value="2078422">2078422</option>
+<option value="2078485">2078485</option>
+<option value="2078486">2078486</option>
+<option value="2078524">2078524</option>
+<option value="2078534">2078534</option>
+<option value="2078535">2078535</option>
+<option value="2079494">2079494</option>
+<option value="2079495">2079495</option>
+<option value="2079503">2079503</option>
+<option value="2079535">2079535</option>
+<option value="2079544">2079544</option>
+<option value="2079546">2079546</option>
+<option value="2079596">2079596</option>
+<option value="2079599">2079599</option>
+<option value="2081325">2081325</option>
+<option value="2081329">2081329</option>
+<option value="2081331">2081331</option>
+<option value="2081389">2081389</option>
+<option value="2081390">2081390</option>
+<option value="2081394">2081394</option>
+<option value="2081425">2081425</option>
+<option value="2100726">2100726</option>
+<option value="2112361">2112361</option>
+<option value="2112362">2112362</option>
+<option value="2274258">2274258</option>
+<option value="2274286">2274286</option>
+<option value="2274321">2274321</option>
+<option value="2274357">2274357</option>
+<option value="2274406">2274406</option>
+<option value="2274408">2274408</option>
+<option value="2274409">2274409</option>
+<option value="2274418">2274418</option>
+<option value="2274428">2274428</option>
+<option value="2274436">2274436</option>
+<option value="2274438">2274438</option>
+<option value="2274440">2274440</option>
+<option value="2274450">2274450</option>
+<option value="2274465">2274465</option>
+<option value="2274473">2274473</option>
+<option value="2274475">2274475</option>
+<option value="2274481">2274481</option>
+<option value="2274486">2274486</option>
+<option value="2274487">2274487</option>
+<option value="2275075">2275075</option>
+<option value="2275100">2275100</option>
+<option value="2275124">2275124</option>
+<option value="2275142">2275142</option>
+<option value="2275202">2275202</option>
+<option value="2275376">2275376</option>
+<option value="2275543">2275543</option>
+<option value="2275681">2275681</option>
+<option value="2275754">2275754</option>
+<option value="2275766">2275766</option>
+<option value="2275769">2275769</option>
+<option value="2275804">2275804</option>
+<option value="2275817">2275817</option>
+<option value="2275818">2275818</option>
+<option value="2275820">2275820</option>
+<option value="2275821">2275821</option>
+<option value="2275831">2275831</option>
+<option value="2275834">2275834</option>
+<option value="2275837">2275837</option>
+<option value="2276335">2276335</option>
+<option value="2276371">2276371</option>
+<option value="2276386">2276386</option>
+<option value="2276414">2276414</option>
+<option value="2286734">2286734</option>
+<option value="2295953">2295953</option>
+
+
+
+
+
+							</select>
+						</div>
+						<div class="filter-group">
+							<label>Estado</label>
+							<select class="form-control" id="status" onchange="load(1);">
+								<option value="">Todos</option>
+								<option value="Formacion">Formacion</option>
+								<option value="Certificado">Certificado</option>
+								<option value="Cancelado">Cancelado</option>
+								<option value="Retiro Voluntario">Retiro Voluntario</option>
+								<option value="Trasladado">Trasladado</option>
+							</select>
+						</div>
+						<span class="filter-icon"><i class="fa fa-filter"></i></span>
+                    </div>
+
+                    <div class="col-sm-3 text-right">
+						<div class="show-entries">
+							<span>Mostrar</span>
+							<select class="form-control" id="per_page" onchange="load(1);">
+								<option>10</option>
+								<option>20</option>
+								<option selected="">40</option>
+								<option>50</option>
+							</select>
+							
+						</div>
+					</div>
+
+
+                </div>
+			</div>
+		<div class="datos_ajax">
+
+		</div>	
+            
+			
+        </div>
+    </div>     
+</body>
+</html>

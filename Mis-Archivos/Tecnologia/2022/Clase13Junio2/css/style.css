@@ -1,0 +1,25 @@
+.concentrese{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255); 
+    border-style: solid;
+    float: left;
+    margin: 2px;
+}
+
+.section{
+    background-color: #FDEBD0;
+    width: 35%;
+    height: 350px;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 34%;
+    margin-top:  195px;
+    margin-right: 28%;
+    margin-bottom: 150px;
+}
+
+.fondo{
+    background-color: #FDEBD0;
+}
